@@ -1,0 +1,153 @@
+2022-12-10 00:03:59 - c.g.m.o.ObservabilityApplication - [request_id] - Starting ObservabilityApplication using Java 17 with PID 2584 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+2022-12-10 00:03:59 - c.g.m.o.ObservabilityApplication - [request_id] - No active profile set, falling back to 1 default profile: "default"
+2022-12-10 00:04:01 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat initialized with port(s): 8080 (http)
+2022-12-10 00:04:01 - o.a.catalina.core.StandardService - [request_id] - Starting service [Tomcat]
+2022-12-10 00:04:01 - o.a.catalina.core.StandardEngine - [request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-10 00:04:01 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring embedded WebApplicationContext
+2022-12-10 00:04:01 - o.s.b.w.s.c.ServletWebServerApplicationContext - [request_id] - Root WebApplicationContext: initialization completed in 1738 ms
+2022-12-10 00:04:02 - o.s.b.a.e.web.EndpointLinksResolver - [request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-12-10 00:04:02 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-10 00:04:02 - c.g.m.o.ObservabilityApplication - [request_id] - Started ObservabilityApplication in 3.731 seconds (process running for 4.686)
+2022-12-10 00:04:03 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-10 00:04:03 - o.s.web.servlet.DispatcherServlet - [request_id] - Initializing Servlet 'dispatcherServlet'
+2022-12-10 00:04:03 - o.s.web.servlet.DispatcherServlet - [request_id] - Completed initialization in 3 ms
+2022-12-10 00:04:12 - c.g.m.observability.config.LogFilter - 948b4843-11a3-42e4-a77b-797271d0e321[request_id] - GET request to /index 
+2022-12-10 00:04:13 - c.g.m.o.controller.IndexController - 948b4843-11a3-42e4-a77b-797271d0e321[request_id] - Entered into the index controller. 
+2022-12-10 00:04:13 - c.g.m.o.controller.IndexController - 948b4843-11a3-42e4-a77b-797271d0e321[request_id] - Consider avoiding useless comments
+2022-12-10 00:04:24 - c.g.m.observability.config.LogFilter - 3ab8e81e-5600-4bcb-8a28-40b45e9d5ec2[request_id] - GET request to /next 
+2022-12-10 00:04:24 - c.g.m.o.controller.IndexController - 3ab8e81e-5600-4bcb-8a28-40b45e9d5ec2[request_id] - Next is logging
+2022-12-10 00:08:54 - c.g.m.o.ObservabilityApplication - [request_id] - Starting ObservabilityApplication using Java 17 with PID 22772 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+2022-12-10 00:08:54 - c.g.m.o.ObservabilityApplication - [request_id] - No active profile set, falling back to 1 default profile: "default"
+2022-12-10 00:08:56 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat initialized with port(s): 8080 (http)
+2022-12-10 00:08:56 - o.a.catalina.core.StandardService - [request_id] - Starting service [Tomcat]
+2022-12-10 00:08:56 - o.a.catalina.core.StandardEngine - [request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-10 00:08:56 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring embedded WebApplicationContext
+2022-12-10 00:08:56 - o.s.b.w.s.c.ServletWebServerApplicationContext - [request_id] - Root WebApplicationContext: initialization completed in 1675 ms
+2022-12-10 00:08:57 - o.s.b.a.e.web.EndpointLinksResolver - [request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-12-10 00:08:57 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-10 00:08:57 - c.g.m.o.ObservabilityApplication - [request_id] - Started ObservabilityApplication in 3.558 seconds (process running for 4.406)
+2022-12-10 00:08:58 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-10 00:08:58 - o.s.web.servlet.DispatcherServlet - [request_id] - Initializing Servlet 'dispatcherServlet'
+2022-12-10 00:08:58 - o.s.web.servlet.DispatcherServlet - [request_id] - Completed initialization in 2 ms
+2022-12-10 00:09:11 - c.g.m.observability.config.LogFilter - 49fb604c-993f-475e-8743-fd248264ceb2[request_id] - GET request to /next 
+2022-12-10 00:09:11 - c.g.m.o.controller.IndexController - 49fb604c-993f-475e-8743-fd248264ceb2[request_id] - Next is logging
+2022-12-10 00:09:19 - c.g.m.observability.config.LogFilter - 2370ee76-cf93-4694-b710-01f83275fd37[request_id] - GET request to /index 
+2022-12-10 00:09:19 - c.g.m.o.controller.IndexController - 2370ee76-cf93-4694-b710-01f83275fd37[request_id] - Entered into the index controller. 
+2022-12-10 00:09:19 - c.g.m.o.controller.IndexController - 2370ee76-cf93-4694-b710-01f83275fd37[request_id] - Consider avoiding useless comments
+2022-12-10 00:09:19 - c.g.m.o.service.IndexService - 2370ee76-cf93-4694-b710-01f83275fd37[request_id] - Logging inside the index service
+2022-12-10 00:13:12 - c.g.m.o.ObservabilityApplication - [request_id] - Starting ObservabilityApplication using Java 17 with PID 8584 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+2022-12-10 00:13:12 - c.g.m.o.ObservabilityApplication - [request_id] - No active profile set, falling back to 1 default profile: "default"
+2022-12-10 00:13:14 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat initialized with port(s): 8080 (http)
+2022-12-10 00:13:14 - o.a.catalina.core.StandardService - [request_id] - Starting service [Tomcat]
+2022-12-10 00:13:14 - o.a.catalina.core.StandardEngine - [request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-10 00:13:14 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring embedded WebApplicationContext
+2022-12-10 00:13:14 - o.s.b.w.s.c.ServletWebServerApplicationContext - [request_id] - Root WebApplicationContext: initialization completed in 1688 ms
+2022-12-10 00:13:15 - o.s.b.a.e.web.EndpointLinksResolver - [request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-12-10 00:13:15 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-10 00:13:15 - c.g.m.o.ObservabilityApplication - [request_id] - Started ObservabilityApplication in 3.438 seconds (process running for 4.227)
+2022-12-10 00:13:15 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-10 00:13:15 - o.s.web.servlet.DispatcherServlet - [request_id] - Initializing Servlet 'dispatcherServlet'
+2022-12-10 00:13:15 - o.s.web.servlet.DispatcherServlet - [request_id] - Completed initialization in 2 ms
+2022-12-10 00:13:29 - c.g.m.observability.config.LogFilter - 65d979c9-1aea-477a-af9e-2cc45a55ddbe[request_id] - GET request to /index 
+2022-12-10 00:13:29 - c.g.m.o.controller.IndexController - 65d979c9-1aea-477a-af9e-2cc45a55ddbe[request_id] - Entered into the index controller. 
+2022-12-10 00:13:29 - c.g.m.o.controller.IndexController - 65d979c9-1aea-477a-af9e-2cc45a55ddbe[request_id] - Consider avoiding useless comments
+2022-12-10 00:13:29 - c.g.m.o.service.IndexService - 65d979c9-1aea-477a-af9e-2cc45a55ddbe[request_id] - Logging inside the index service
+2022-12-10 00:14:27 - c.g.m.o.ObservabilityApplication - [request_id] - Starting ObservabilityApplication using Java 17 with PID 23056 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+2022-12-10 00:14:27 - c.g.m.o.ObservabilityApplication - [request_id] - No active profile set, falling back to 1 default profile: "default"
+2022-12-10 00:14:28 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat initialized with port(s): 8080 (http)
+2022-12-10 00:14:28 - o.a.catalina.core.StandardService - [request_id] - Starting service [Tomcat]
+2022-12-10 00:14:28 - o.a.catalina.core.StandardEngine - [request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-10 00:14:28 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring embedded WebApplicationContext
+2022-12-10 00:14:28 - o.s.b.w.s.c.ServletWebServerApplicationContext - [request_id] - Root WebApplicationContext: initialization completed in 1710 ms
+2022-12-10 00:14:29 - o.s.b.a.e.web.EndpointLinksResolver - [request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-12-10 00:14:29 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-10 00:14:30 - c.g.m.o.ObservabilityApplication - [request_id] - Started ObservabilityApplication in 3.467 seconds (process running for 4.223)
+2022-12-10 00:14:30 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-10 00:14:30 - o.s.web.servlet.DispatcherServlet - [request_id] - Initializing Servlet 'dispatcherServlet'
+2022-12-10 00:14:30 - o.s.web.servlet.DispatcherServlet - [request_id] - Completed initialization in 2 ms
+2022-12-10 00:14:32 - c.g.m.observability.config.LogFilter - d85244e3-2471-474c-82f1-1479cdcfba20[request_id] - GET request to /index 
+2022-12-10 00:14:32 - c.g.m.o.controller.IndexController - d85244e3-2471-474c-82f1-1479cdcfba20[request_id] - Entered into the index controller. 
+2022-12-10 00:14:32 - c.g.m.o.controller.IndexController - d85244e3-2471-474c-82f1-1479cdcfba20[request_id] - Consider avoiding useless comments
+2022-12-10 00:14:32 - c.g.m.o.service.IndexService - d85244e3-2471-474c-82f1-1479cdcfba20[request_id] - Logging inside the index service
+2022-12-10 00:14:57 - c.g.m.o.ObservabilityApplication - [request_id] - Starting ObservabilityApplication using Java 17 with PID 23504 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+2022-12-10 00:14:57 - c.g.m.o.ObservabilityApplication - [request_id] - No active profile set, falling back to 1 default profile: "default"
+2022-12-10 00:14:59 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat initialized with port(s): 8080 (http)
+2022-12-10 00:14:59 - o.a.catalina.core.StandardService - [request_id] - Starting service [Tomcat]
+2022-12-10 00:14:59 - o.a.catalina.core.StandardEngine - [request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-10 00:14:59 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring embedded WebApplicationContext
+2022-12-10 00:14:59 - o.s.b.w.s.c.ServletWebServerApplicationContext - [request_id] - Root WebApplicationContext: initialization completed in 1675 ms
+2022-12-10 00:15:00 - o.s.b.a.e.web.EndpointLinksResolver - [request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-12-10 00:15:00 - o.s.b.w.e.tomcat.TomcatWebServer - [request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-10 00:15:00 - c.g.m.o.ObservabilityApplication - [request_id] - Started ObservabilityApplication in 3.425 seconds (process running for 4.182)
+2022-12-10 00:15:00 - o.a.c.c.C.[Tomcat].[localhost].[/] - [request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-10 00:15:00 - o.s.web.servlet.DispatcherServlet - [request_id] - Initializing Servlet 'dispatcherServlet'
+2022-12-10 00:15:00 - o.s.web.servlet.DispatcherServlet - [request_id] - Completed initialization in 5 ms
+2022-12-10 00:15:02 - c.g.m.observability.config.LogFilter - 6fa305bd-242e-4e90-a7db-d33a1b6991e4[request_id] - GET request to /index 
+2022-12-10 00:15:02 - c.g.m.o.controller.IndexController - 6fa305bd-242e-4e90-a7db-d33a1b6991e4[request_id] - Entered into the index controller. 
+2022-12-10 00:15:02 - c.g.m.o.controller.IndexController - 6fa305bd-242e-4e90-a7db-d33a1b6991e4[request_id] - Consider avoiding useless comments
+2022-12-10 00:15:02 - c.g.m.o.service.IndexService - 6fa305bd-242e-4e90-a7db-d33a1b6991e4[request_id] - Logging inside the index service
+2022-12-10 00:15:55 - c.g.m.observability.config.LogFilter - b6b72180-44a8-4ce1-afcb-901836a7979c[request_id] - GET request to /next 
+2022-12-10 00:15:55 - c.g.m.o.controller.IndexController - b6b72180-44a8-4ce1-afcb-901836a7979c[request_id] - Next is logging
+[2m-2022-12-10 00:52:27.044[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39mStarting ObservabilityApplication using Java 17 with PID 19956 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+-[2m-2022-12-10 00:52:27.049[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39mNo active profile set, falling back to 1 default profile: "default"
+-[2m-2022-12-10 00:52:29.512[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39mTomcat initialized with port(s): 8080 (http)
+-[2m-2022-12-10 00:52:29.545[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39mStarting service [Tomcat]
+-[2m-2022-12-10 00:52:29.547[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39mStarting Servlet engine: [Apache Tomcat/10.1.1]
+-[2m-2022-12-10 00:52:29.710[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39mInitializing Spring embedded WebApplicationContext
+-[2m-2022-12-10 00:52:29.711[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39mRoot WebApplicationContext: initialization completed in 2532 ms
+-[2m-2022-12-10 00:52:31.307[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39mExposing 15 endpoint(s) beneath base path '/actuator'
+-[2m-2022-12-10 00:52:31.549[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39mTomcat started on port(s): 8080 (http) with context path ''
+-[2m-2022-12-10 00:52:31.583[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39mStarted ObservabilityApplication in 5.553 seconds (process running for 6.885)
+-[2m-2022-12-10 00:52:32.325[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39mInitializing Spring DispatcherServlet 'dispatcherServlet'
+-[2m-2022-12-10 00:52:32.326[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39mInitializing Servlet 'dispatcherServlet'
+-[2m-2022-12-10 00:52:32.328[0;39m[32m- INFO[0;39m [35m19956[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39mCompleted initialization in 1 ms
+-[2m-2022-12-10 00:53:25.701[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39m Starting ObservabilityApplication using Java 17 with PID 21256 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+-[2m-2022-12-10 00:53:25.716[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+-[2m-2022-12-10 00:53:28.150[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+-[2m-2022-12-10 00:53:28.170[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+-[2m-2022-12-10 00:53:28.171[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+-[2m-2022-12-10 00:53:28.335[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+-[2m-2022-12-10 00:53:28.336[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2508 ms
+-[2m-2022-12-10 00:53:29.542[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+-[2m-2022-12-10 00:53:29.711[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+-[2m-2022-12-10 00:53:29.740[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[           main][0;39m [36mc.g.m.o.ObservabilityApplication        [0;39m [2m:[0;39m Started ObservabilityApplication in 5.161 seconds (process running for 6.337)
+-[2m-2022-12-10 00:53:30.021[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+-[2m-2022-12-10 00:53:30.022[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+-[2m-2022-12-10 00:53:30.025[0;39m [32m- INFO[0;39m [35m21256[0;39m [2m---[0;39m[2m[)-192.168.0.140][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 3 ms
+-[2022-12-10 00:57:00] - c.g.m.o.ObservabilityApplication - [][request_id] - Starting ObservabilityApplication using Java 17 with PID 21280 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+[2022-12-10 00:57:00] - c.g.m.o.ObservabilityApplication - [][request_id] - No active profile set, falling back to 1 default profile: "default"
+[2022-12-10 00:57:02] - o.s.b.w.e.tomcat.TomcatWebServer - [][request_id] - Tomcat initialized with port(s): 8080 (http)
+[2022-12-10 00:57:02] - o.a.catalina.core.StandardService - [][request_id] - Starting service [Tomcat]
+[2022-12-10 00:57:02] - o.a.catalina.core.StandardEngine - [][request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[2022-12-10 00:57:02] - o.a.c.c.C.[Tomcat].[localhost].[/] - [][request_id] - Initializing Spring embedded WebApplicationContext
+[2022-12-10 00:57:02] - o.s.b.w.s.c.ServletWebServerApplicationContext - [][request_id] - Root WebApplicationContext: initialization completed in 2314 ms
+[2022-12-10 00:57:03] - o.s.b.a.e.web.EndpointLinksResolver - [][request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+[2022-12-10 00:57:03] - o.s.b.w.e.tomcat.TomcatWebServer - [][request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-10 00:57:03] - c.g.m.o.ObservabilityApplication - [][request_id] - Started ObservabilityApplication in 4.611 seconds (process running for 5.985)
+[2022-12-10 00:57:04] - o.a.c.c.C.[Tomcat].[localhost].[/] - [][request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-10 00:57:04] - o.s.web.servlet.DispatcherServlet - [][request_id] - Initializing Servlet 'dispatcherServlet'
+[2022-12-10 00:57:04] - o.s.web.servlet.DispatcherServlet - [][request_id] - Completed initialization in 1 ms
+[2022-12-10 09:22:37] - c.g.m.o.ObservabilityApplication - [][request_id] - Starting ObservabilityApplication using Java 17 with PID 11468 (C:\Users\User\Documents\projects\observability\target\classes started by User in C:\Users\User\Documents\projects\observability)
+[2022-12-10 09:22:37] - c.g.m.o.ObservabilityApplication - [][request_id] - No active profile set, falling back to 1 default profile: "default"
+[2022-12-10 09:22:38] - o.s.b.w.e.tomcat.TomcatWebServer - [][request_id] - Tomcat initialized with port(s): 8080 (http)
+[2022-12-10 09:22:38] - o.a.catalina.core.StandardService - [][request_id] - Starting service [Tomcat]
+[2022-12-10 09:22:38] - o.a.catalina.core.StandardEngine - [][request_id] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[2022-12-10 09:22:38] - o.a.c.c.C.[Tomcat].[localhost].[/] - [][request_id] - Initializing Spring embedded WebApplicationContext
+[2022-12-10 09:22:38] - o.s.b.w.s.c.ServletWebServerApplicationContext - [][request_id] - Root WebApplicationContext: initialization completed in 1175 ms
+[2022-12-10 09:22:39] - o.s.b.a.e.web.EndpointLinksResolver - [][request_id] - Exposing 15 endpoint(s) beneath base path '/actuator'
+[2022-12-10 09:22:39] - o.s.b.w.e.tomcat.TomcatWebServer - [][request_id] - Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-10 09:22:39] - c.g.m.o.ObservabilityApplication - [][request_id] - Started ObservabilityApplication in 2.382 seconds (process running for 3.198)
+[2022-12-10 09:22:39] - o.a.c.c.C.[Tomcat].[localhost].[/] - [][request_id] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-10 09:22:39] - o.s.web.servlet.DispatcherServlet - [][request_id] - Initializing Servlet 'dispatcherServlet'
+[2022-12-10 09:22:39] - o.s.web.servlet.DispatcherServlet - [][request_id] - Completed initialization in 1 ms
+[2022-12-10 09:23:41] - c.g.m.observability.config.LogFilter - [cbe1056a-3a21-4b49-b861-6fd4d1dc2a1e][request_id] - GET request to /index 
+[2022-12-10 09:23:41] - c.g.m.o.controller.IndexController - [cbe1056a-3a21-4b49-b861-6fd4d1dc2a1e][request_id] - Entered into the index controller. 
+[2022-12-10 09:23:41] - c.g.m.o.controller.IndexController - [cbe1056a-3a21-4b49-b861-6fd4d1dc2a1e][request_id] - Consider avoiding useless comments
+[2022-12-10 09:23:41] - c.g.m.o.controller.IndexController - [cbe1056a-3a21-4b49-b861-6fd4d1dc2a1e][request_id] - testing the third log
+[2022-12-10 09:23:41] - c.g.m.o.service.IndexService - [cbe1056a-3a21-4b49-b861-6fd4d1dc2a1e][request_id] - Logging inside the index service
+[2022-12-10 09:23:41] - c.g.m.observability.config.LogFilter - [e18aa125-7246-4457-8a17-5d1a8cfe46c0][request_id] - GET request to /favicon.ico 
+[2022-12-10 09:23:45] - c.g.m.observability.config.LogFilter - [26edad46-dd8d-4586-8be2-f072a0fbf335][request_id] - GET request to /index 
+[2022-12-10 09:23:45] - c.g.m.o.controller.IndexController - [26edad46-dd8d-4586-8be2-f072a0fbf335][request_id] - Entered into the index controller. 
+[2022-12-10 09:23:45] - c.g.m.o.controller.IndexController - [26edad46-dd8d-4586-8be2-f072a0fbf335][request_id] - Consider avoiding useless comments
+[2022-12-10 09:23:45] - c.g.m.o.controller.IndexController - [26edad46-dd8d-4586-8be2-f072a0fbf335][request_id] - testing the third log
+[2022-12-10 09:23:45] - c.g.m.o.service.IndexService - [26edad46-dd8d-4586-8be2-f072a0fbf335][request_id] - Logging inside the index service
