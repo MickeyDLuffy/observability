@@ -1,5 +1,11 @@
 version: '3.8'
 
+x-logging: &logging
+  logging:
+    driver: loki
+    options:
+      loki-url: "http://host.docker.internal:3100/loki/api/v1/push"
+
 volumes:
   prometheus_data: {}
   grafana_data: {}
@@ -10,6 +16,7 @@ networks:
 
 services:
   prometheus:
+    logging: *logging
     image: prom/prometheus:latest
     volumes:
       - ./prometheus/:/etc/prometheus/
@@ -35,8 +42,10 @@ services:
     ports:
       - "3100:3100"
     command: '-config.file=/etc/loki/loki.yaml'
+    logging: *logging
     networks:
       - back-tier
+    restart: always
 
   promtail:
     image: grafana/promtail:latest
@@ -45,8 +54,10 @@ services:
       - ./logs/observability.log:/opt/observability.log
       - ./promtail/promtail.yaml:/etc/promtail/promtail.yaml
     command: '-config.file=/etc/promtail/promtail.yaml'
+    logging: *logging
     networks:
       - back-tier
+    restart: always
 
   grafana:
     image: grafana/grafana:latest
@@ -58,6 +69,7 @@ services:
     volumes:
       - ./grafana/grafana_data:/var/lib/grafana
       - ./grafana/provisioning/:/etc/grafana/provisioning/
+    logging: *logging
     env_file:
       - ./grafana/config.monitoring
     networks:
