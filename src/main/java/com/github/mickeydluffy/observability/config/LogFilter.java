@@ -11,6 +11,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import org.springframework.web.util.ContentCachingResponseWrapper;
 
 import java.io.IOException;
+import java.util.Hashtable;
 import java.util.UUID;
 
 @Component
@@ -32,5 +33,6 @@ public class LogFilter extends OncePerRequestFilter {
         } finally {
             MDC.clear();
         }
+
     }
 }
